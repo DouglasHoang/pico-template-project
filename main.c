@@ -3,11 +3,15 @@
 
 int main(void)
 {
-  setup_default_uart();
-  printf("Hello, world!\n");
+  stdio_init_all();
 
   while (1)
   {
+    printf("Hello, world!\n");
+
+    sleep_ms(250);
+
+    printf("What's going on\n");
   }
 
   return 0;
