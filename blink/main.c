@@ -11,9 +11,9 @@ int main(void)
   while (1)
   {
     gpio_put(25, 1);
-    sleep_ms(500);
+    sleep_ms(2000);
     gpio_put(25, 0);
-    sleep_ms(500);
+    sleep_ms(2000);
   }
 
   return 0;
