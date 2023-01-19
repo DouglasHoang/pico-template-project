@@ -17,18 +17,18 @@ int main(void)
   stdio_init_all();
 
   Display *d = d_init_display(
-     0,
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9, 
-     16,
-     17
+     14, // A
+     10, // B
+     19, // C
+     17, // D
+     16, // E
+     13, // F
+     20, // G
+     15, // C1
+     12, // C2
+     11, // C3
+     21, // C4
+     18 // Decimal Point
     );
 
   struct repeating_timer timer;
